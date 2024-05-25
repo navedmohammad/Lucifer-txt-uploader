@@ -9,7 +9,7 @@
         "pyrogram"
     ],
     "success_url": "https://telegram.me/imendaxpublic",
-    "stack": "heroku-22", // Use the appropriate Heroku stack
+    "stack": "heroku-20", // Use the appropriate Heroku stack
     "env": {
         "API_ID": {
             "description": "Enter your API id You can generate by https://my.telegram.org/auth",
