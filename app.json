@@ -1,15 +1,15 @@
 {
-    "name": "𝐓𝐞𝐱𝐭 Uploader 『𝕃𝕦𝕔𝕚𝕗𝕖𝕣",
-    "description": "Download videos from various websites using this telegram bot",
-    "logo": "https://telegra.ph/file/84e9eee7ec9ca9eec9bdf.jpg",
+    "name": "Text Uploader 『Lucifer",
+    "description": "Download videos from various websites using this Telegram bot",
+    "repository": "https://github.com/Ownerlost/Lucifer-txt-uploader",
+    "logo": "https://telegra.ph/file/84e9eee7ec9ca9eec9bdf.jpg", // Replace with a direct image URL
     "keywords": [
         "text-video",
         "video-extract",
         "pyrogram"
     ],
-    "repository": "https://github.com/Ownerlost/Lucifer-txt-uploader",
     "success_url": "https://telegram.me/imendaxpublic",
-    "stack": "heroku-22",
+    "stack": "heroku-22", // Use the appropriate Heroku stack
     "env": {
         "API_ID": {
             "description": "Enter your API id You can generate by https://my.telegram.org/auth",
@@ -24,14 +24,13 @@
             "required": true
         }
     },
-    "addons": [],
     "buildpacks": [
         {
             "url": "https://github.com/amivin/aria2-heroku.git"
         },
         {
             "url": "heroku/python"
-        },       
+        },
         {
             "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
         }
